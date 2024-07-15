@@ -115,10 +115,10 @@ mailchimp:
 #-------------------------------
 # Social Icons Settings
 social:
-- {icon: "ion-logo-twitter", name: "Twitter", link: "https://twitter.com/karlambsilva"}
+- {icon: "ion-logo-linkedin", name: "LinkedIn", link: "https://www.linkedin.com/in/karlambsilva/"}
 - {icon: "ion-logo-github", name: "Github", link: "https://github.com/karlambsilva"}
-- {icon: "ion-logo-youtube", name: "Youtube", link: "https://youtube.com/karlambsilva"}
-# - {icon: "ion-logo-pinterest", name: "Pinterest", link: "https://pinterest.com"}
+- {icon: "ion-logo-twitter", name: "Twitter", link: "https://twitter.com/karlambsilva"}
+# - {icon: "ion-logo-youtube", name: "Youtube", link: "https://youtube.com/karlambsilva"}
 # - {icon: "ion-logo-codepen", name: "Codepen", link: "https://codepen.io"}
 # - {icon: "ion-logo-vimeo", name: "Vimeo", link: "https://vimeo.com"}
 
@@ -129,8 +129,8 @@ social:
 #-------------------------------
 # Contact Settings
 contact:
-  email: your@email.com # Add your email for contant form
-  description: Atega comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+  email: mrbzbyya # Add your email for contact form
+  description: If you're as passionate about quality in software development as I am, let's connect! Whether you have questions, feedback, or collaboration ideas, I’m eager to hear from you. # Add a description of your form
 
 # NOTE
 # Atega theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
