@@ -2,7 +2,7 @@
 # Site Settings
 title: Karla Silva
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Creative personal blog theme for Jekyll
+description: QA engineer with a passion for test automation
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -10,27 +10,23 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 # Navigation Settings
 menu__settings:
   menu__items:
-    - title: "About"
-      url: "/about/"
+#    - title: "About"
+#      url: "/about/"
+    - title: "Categories"
+      submenu:
+      - url: "/tags/?tag=books"
+        title: "Books"
+      - url: "/tags/?tag=apps"
+        title: "Apps"
     - title: "Contact"
       url: "/contact/"
-    - title: "Elements"
-      url: "/elements/"
-    - title: "Pages"
-      submenu:
-      - url: "/if-you-cannot-do-great-things-do-small-things-in-a-great-way/"
-        title: "Lifestyle"
-      - url: "/you-must-be-the-change-you-wish-to-see-in-the-world/"
-        title: "Workflow"
-
 
 #-------------------------------
 # Author Settings
 author:
   author__name: Karla Silva
   author__avatar: "/images/01-1.jpg"
-  author__bio: I'm a product designer who's passionate about bringing projects to life! I love learning new things and jumping headfirst into solving problems.
-
+  author__bio: I'm a Brazilian QA engineer living in Portugal with a passion for test automation and a deep love for learning.
 
 #-------------------------------
 # Links Section Settings
@@ -75,8 +71,8 @@ links__item:
 hero:
   hero__title: Hi, I'm <span>Karla Silva</span>. # Wrap text in a <span></span> tag to highlight and underline text.
   hero__job: QA Engineer
-  hero__description: I spend a lot of time automating cool things and finding bugs
-  hero__button__text: Read about my past
+  hero__description: I spend a lot of time automating cool things and finding.
+  hero__button__text: Read more about myself
   hero__button__link: "/about/"
   hero__image: "/images/01.jpg"
 
@@ -105,7 +101,7 @@ gallery:
 #-------------------------------
 # Newsletter
 mailchimp:
-  enable: true
+  enable: false
   mailchimp__title: Subscribe to new posts # Add your Title
   mailchimp__text: Subscribe to our newsletter and we’ll send you the emails of latest posts. # Add your description.
   mailchimp__identifier: "github.us22.list-manage.com/subscribe/post?u=991cd782a72ed3df2b7a6b067&amp;id=ccfdc94c91" # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
