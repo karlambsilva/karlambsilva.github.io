@@ -1,3 +1,6 @@
+@use "../0-settings/variables";
+@use "../1-tools/grid";
+
 /* Hero */
 .hero {
   padding: 60px 0 70px;
@@ -25,7 +28,7 @@
     }
   }
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     padding: 60px 0;
     margin-bottom: 60px;
 
@@ -40,7 +43,7 @@
     }
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: grid.$mobile) {
     padding: 40px 0;
   }
 }
@@ -54,7 +57,7 @@
     margin: 0 auto;
   }
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     flex-direction: column;
   }
 }
@@ -64,7 +67,7 @@
   width: 50%;
   flex-grow: 1;
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     width: 100%;
   }
 }
@@ -84,11 +87,11 @@
       line-height: 1.2;
     }
 
-    @media (max-width: $desktop) {
+    @media (max-width: grid.$desktop) {
       font-size: 33px;
     }
 
-    @media (max-width: $mobile) {
+    @media (max-width: grid.$mobile) {
       font-size: 27px;
     }
   }
@@ -124,7 +127,7 @@
     font-size: 21px;
     color: var(--text-alt-color);
 
-    @media (max-width: $desktop) {
+    @media (max-width: grid.$desktop) {
       font-size: 16px;
       line-height: 26px
     }
@@ -142,7 +145,7 @@
     color: var(--heading-font-color);
     outline: none;
     cursor: pointer;
-    transition: $global-transition;
+    transition: variables.$global-transition;
 
     &:hover {
       color: var(--white);
@@ -162,7 +165,7 @@
     }
   }
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     padding-right: 0;
   }
 }
@@ -225,13 +228,13 @@
     }
   }
 
-  @media (max-width: $desktop) {
+  @media (max-width: grid.$desktop) {
     .hero__image {
       width: 230px;
     }
   }
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     order: -1;
 
     .hero__image {
@@ -245,7 +248,7 @@
     }
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: grid.$mobile) {
     .hero__image {
       margin-bottom: 30px;
 

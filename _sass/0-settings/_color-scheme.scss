@@ -1,3 +1,5 @@
+@use "sass:color";
+
 /* Color Scheme */
 
 :root {
@@ -26,7 +28,7 @@
 
   $button-color: $white;
   $button-background-color: $brand-color;
-  $button-background-hover: darken($brand-color, 5%);
+  $button-background-hover: color.adjust($brand-color, $lightness: -5%, $space: hsl);
 
   $border-color: $lighten-gray;
   $border-alt-color: $lighten-gray;
@@ -87,7 +89,7 @@
 
   $button-color: $white;
   $button-background-color: var(--brand-color);
-  $button-background-hover: darken($brand-color, 5%);
+  $button-background-hover: color.adjust($brand-color, $lightness: -5%, $space: hsl);
 
   $border-color: #1a1a1a;
   $border-alt-color: $dark;

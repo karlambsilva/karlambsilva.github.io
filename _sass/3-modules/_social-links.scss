@@ -1,3 +1,5 @@
+@use "../1-tools/grid";
+
 /* Social Links */
 .social {
   text-align: center;
@@ -45,7 +47,7 @@
     }
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: grid.$mobile) {
     .social__link {
       padding: 0 8px;
       font-size: 18px;

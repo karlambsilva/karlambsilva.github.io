@@ -1,3 +1,5 @@
+@use "../1-tools/grid";
+
 /* Tag Page */
 .tags {
   margin-bottom: -30px;
@@ -36,7 +38,7 @@
     text-transform: capitalize;
   }
 
-  @media (max-width: $desktop) {
+  @media (max-width: grid.$desktop) {
     .tag__title {
       font-size: 33px;
     }
@@ -50,13 +52,13 @@
     }
   }
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     .tags__box {
       margin-bottom: 60px;
     }
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: grid.$mobile) {
     .tags__box {
       padding: 40px 0;
     }

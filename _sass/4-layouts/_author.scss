@@ -1,3 +1,5 @@
+@use "../1-tools/grid";
+
 /* Author */
 .author-profile {
   max-width: 560px;
@@ -38,13 +40,13 @@
     color: var(--text-alt-color);
   }
 
-  @media (max-width: $desktop) {
+  @media (max-width: grid.$desktop) {
     .author-profile__name {
       font-size: 33px;
     }
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: grid.$mobile) {
     .author-profile__name {
       font-size: 27px;
     }

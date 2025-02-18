@@ -1,3 +1,6 @@
+@use "../0-settings/variables";
+@use "../1-tools/grid";
+
 /* Header */
 .header {
   height: auto;
@@ -18,7 +21,7 @@
 }
 
 .logo__link {
-  font-family: $heading-font-family;
+  font-family: variables.$heading-font-family;
   font-size: 20px;
   line-height: 1;
   font-weight: 700;
@@ -40,10 +43,10 @@
   width: 100%;
   margin-left: 80px;
 
-  @media (max-width: $desktop) {
+  @media (max-width: grid.$desktop) {
     position: absolute;
     top: 60px;
-    right: $base-spacing-unit;
+    right: variables.$base-spacing-unit;
     z-index: -1;
     display: block;
     width: auto;
@@ -285,7 +288,7 @@
     }
   }
 
-  @media (max-width: $desktop) {
+  @media (max-width: grid.$desktop) {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -315,7 +318,7 @@
     }
   }
 
-  @media (max-width: $desktop) {
+  @media (max-width: grid.$desktop) {
     display: flex;
     align-items: center;
   }

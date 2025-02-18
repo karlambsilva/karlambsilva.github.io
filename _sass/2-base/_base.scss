@@ -1,3 +1,6 @@
+@use "../0-settings/variables";
+@use "../1-tools/grid";
+
 *,
 *::after,
 *::before {
@@ -5,9 +8,9 @@
 }
 
 body {
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
+  font-family: variables.$base-font-family;
+  font-size: variables.$base-font-size;
+  line-height: variables.$base-line-height;
   border: 10px solid var(--background-color);
   color: var(--text-color);
   background-color: var(--background-color);
@@ -48,35 +51,35 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading-font-family;
-  font-weight: $heading-font-weight;
-  line-height: $heading-line-height;
-  letter-spacing: $heading-letter-spacing;
+  font-family: variables.$heading-font-family;
+  font-weight: variables.$heading-font-weight;
+  line-height: variables.$heading-line-height;
+  letter-spacing: variables.$heading-letter-spacing;
   color: var(--heading-font-color);
 }
 
 h1 {
-  font-size: $font-size-h1;
+  font-size: variables.$font-size-h1;
 }
 
 h2 {
-  font-size: $font-size-h2;
+  font-size: variables.$font-size-h2;
 }
 
 h3 {
-  font-size: $font-size-h3;
+  font-size: variables.$font-size-h3;
 }
 
 h4 {
-  font-size: $font-size-h4;
+  font-size: variables.$font-size-h4;
 }
 
 h5 {
-  font-size: $font-size-h5;
+  font-size: variables.$font-size-h5;
 }
 
 h6 {
-  font-size: $font-size-h6;
+  font-size: variables.$font-size-h6;
 }
 
 blockquote {
@@ -115,12 +118,12 @@ blockquote {
     }
   }
 
-  @media (max-width: $desktop) {
+  @media (max-width: grid.$desktop) {
     font-size: 24px;
     line-height: 37px;
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: grid.$mobile) {
     padding: 38px 0 15px 35px;
     font-size: 21px;
     line-height: 31px;
@@ -161,7 +164,7 @@ img,
     a {
       font-weight: 500;
       border-bottom: 1px solid var(--border-color);
-      transition: $global-transition;
+      transition: variables.$global-transition;
 
       &:hover {
         color: var(--link-color);
@@ -169,7 +172,7 @@ img,
       }
     }
 
-    @media (max-width: $mobile) {
+    @media (max-width: grid.$mobile) {
       margin-top: 12px;
     }
   }
@@ -178,7 +181,7 @@ img,
 a {
   text-decoration: none;
   color: var(--link-color);
-  transition: $global-transition;
+  transition: variables.$global-transition;
 
   &:hover {
     color: var(--link-color);
@@ -249,7 +252,7 @@ table td {
   outline: none;
   color: var(--button-color);
   background: var(--button-background-color);
-  transition: $global-transition;
+  transition: variables.$global-transition;
   cursor: pointer;
 
   &:hover {

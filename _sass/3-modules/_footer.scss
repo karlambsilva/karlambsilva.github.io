@@ -1,3 +1,5 @@
+@use "../1-tools/grid";
+
 /* Footer */
 .footer {
   padding-top: 70px;
@@ -31,13 +33,13 @@
     margin-top: 60px;
   }
 
-  @media (max-width: $desktop) {
+  @media (max-width: grid.$desktop) {
     .row .col:last-child>.widget {
       margin-bottom: 0;
     }
   }
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     padding-top: 60px;
     margin-top: 60px;
 
@@ -59,7 +61,7 @@
     }
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: grid.$mobile) {
     padding-top: 50px;
 
     .footer__info {
@@ -76,7 +78,7 @@
 
 /* Widgets */
 .widget {
-  @media (max-width: $desktop) {
+  @media (max-width: grid.$desktop) {
     margin-bottom: 40px;
   }
 }
@@ -93,7 +95,7 @@
 .widget-gallery {
   padding: 0 35px;
 
-  @media (max-width: $desktop) {
+  @media (max-width: grid.$desktop) {
     padding: 0;
   }
 }
@@ -246,7 +248,7 @@
 
 /* Social */
 .footer__info {
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     .social {
       text-align: left;
 
@@ -278,11 +280,11 @@
     }
   }
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     text-align: left;
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: grid.$mobile) {
     margin-top: 10px;
   }
 }

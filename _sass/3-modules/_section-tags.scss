@@ -1,9 +1,11 @@
+@use "../1-tools/grid";
+
 /* Section Tags */
 .section-tags {
   margin-top: 70px;
   margin-bottom: -30px;
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     margin-top: 60px;
   }
 }

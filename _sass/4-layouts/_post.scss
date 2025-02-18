@@ -1,3 +1,5 @@
+@use "../1-tools/grid";
+
 /* Post + Page */
 .post-video,
 .page-video {
@@ -52,7 +54,7 @@
     }
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: grid.$mobile) {
     margin-bottom: 16px;
   }
 }
@@ -63,7 +65,7 @@
   margin-bottom: 0;
   color: var(--text-alt-color);
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     margin-top: 16px;
   }
 }
@@ -127,7 +129,7 @@
     color: var(--text-color);
   }
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     margin-top: 16px;
 
     .post-author-image {
@@ -387,7 +389,7 @@
     justify-content: flex-end;
   }
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     flex-wrap: wrap;
 
     .post__prev,
@@ -404,7 +406,7 @@
     }
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: grid.$mobile) {
 
     .post__prev,
     .post__next {
@@ -436,7 +438,7 @@
     font-size: 19px;
   }
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     margin-top: 60px;
   }
 }
@@ -446,7 +448,7 @@
   margin-top: 70px;
   text-align: center;
 
-  @media (max-width: $tablet) {
+  @media (max-width: grid.$tablet) {
     margin-top: 60px;
   }
 }
@@ -460,7 +462,7 @@
     padding: 40px;
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: grid.$mobile) {
     &.is-open {
       padding: 25px;
     }
@@ -484,7 +486,7 @@
     color: var(--text-alt-color);
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: grid.$mobile) {
     .error__title {
       font-size: 70px;
     }

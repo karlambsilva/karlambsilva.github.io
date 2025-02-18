@@ -1,3 +1,5 @@
+@use "../1-tools/grid";
+
 /* Section Featured Posts */
 .featured-post {
   margin-bottom: 40px;
@@ -11,7 +13,7 @@
     font-size: 19px;
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: grid.$mobile) {
     margin-bottom: 30px;
   }
 }
