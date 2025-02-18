@@ -16,8 +16,8 @@ menu__settings:
       submenu:
       - url: "/tags/?tag=books"
         title: "Books"
-      - url: "/tags/?tag=apps"
-        title: "Apps"
+      - url: "/tools/?tag=tools"
+        title: "Tools"
     - title: "Contact"
       url: "/contact/"
 
