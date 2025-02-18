@@ -25,8 +25,8 @@ menu__settings:
 # Author Settings
 author:
   author__name: Karla Silva
-  author__avatar: "/images/01-1.jpg"
-  author__bio: I'm a Brazilian QA engineer living in Portugal with a passion for test automation and a deep love for learning.
+  author__avatar: "/images/profile/photo1-1.png"
+  author__bio: I'm a Brazilian QA engineer living in Portugal, passionate about test automation and always eager to learn and explore new technologies.
 
 #-------------------------------
 # Links Section Settings
@@ -70,17 +70,17 @@ links__item:
 # Hero Settings
 hero:
   hero__title: Hi, I'm <span>Karla Silva</span>. # Wrap text in a <span></span> tag to highlight and underline text.
-  hero__job: QA Engineer
-  hero__description: I spend a lot of time automating cool things and finding.
+  hero__job: Quality Assurance Engineer
+  hero__description: I dedicate my time to automating innovative solutions, exploring new applications, and uncovering hidden bugs.
   hero__button__text: Read more about myself
   hero__button__link: "/about/"
-  hero__image: "/images/01.jpg"
+  hero__image: "/images/profile/photo1.png"
 
 
 #-------------------------------
 # Gallery Footer Section
 gallery:
-  enable: true
+  enable: false
   gallery__title: Gallery
   gallery__columns: "3" # You can change the number of gallery columns
   gallery__images:
@@ -101,10 +101,10 @@ gallery:
 #-------------------------------
 # Newsletter
 mailchimp:
-  enable: false
+  enable: true
   mailchimp__title: Subscribe to new posts # Add your Title
   mailchimp__text: Subscribe to our newsletter and we’ll send you the emails of latest posts. # Add your description.
-  mailchimp__identifier: "github.us22.list-manage.com/subscribe/post?u=991cd782a72ed3df2b7a6b067&amp;id=ccfdc94c91" # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+  mailchimp__identifier: "github.us22.list-manage.com/subscribe/post?u=991cd782a72ed3df2b7a6b067&amp;id=ccfdc94c91&amp;f_id=001dd4e1f0" # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
   mailchimp__button__text: Subscribe
 
 
@@ -125,8 +125,8 @@ social:
 #-------------------------------
 # Contact Settings
 contact:
-  email: mrbzbyya # Add your email for contact form
-  description: If you're as passionate about quality in software development as I am, let's connect! Whether you have questions, feedback, or collaboration ideas, I’m eager to hear from you. # Add a description of your form
+  email: karlambsilva@gmail.com # Add your email for contact form
+  description: If you share my passion for quality in software development, let’s connect! Whether you have questions, feedback, or exciting collaboration ideas, I’d love to hear from you. # Add a description of your form
 
 # NOTE
 # Atega theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.

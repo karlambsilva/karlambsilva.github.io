@@ -3,7 +3,7 @@ layout: post
 title: Software Testing Heuristics
 description: Overview of heuristics in general, and discuss the most popular ones related to software testing.
 date: 2020-06-13 18:05:55 +0300
-image: '/images/23.jpg'
+image: 'https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'
 tags: [heuristics, software testing, exploratory testing]
 ---
 
